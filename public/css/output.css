@@ -1,0 +1,59 @@
+body{
+  padding-top: 10rem;
+  text-align: center;
+  background-color: #EEF1FF;
+}
+
+h2{
+  font-family: "Vollkorn", serif;
+  color: #0D4C92;
+  font-size: 2rem;
+}
+
+p{
+  font-family: "Dancing Script", cursive;
+  color: #0D4C92;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+
+}
+
+.output{
+  background-color: #D2DAFF;
+  margin: 2rem 24rem 9rem 24rem;
+  position: relative;
+  border-style: solid;
+  border-width: thin;
+  border-color: #0D4C92;
+  border-radius: 2%;
+}
+
+img{
+  height: 6.5rem;
+  width: 5.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.cloud3{
+  height: 5rem;
+  width: 10rem;
+  position: absolute;
+  top: 100px;
+  padding-top: 0;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  margin-left: 345px;
+
+}
+.cloud4{
+    height: 5rem;
+    width: 10rem;
+    padding-top:0;
+    margin-top: 0;
+    margin-bottom: 10rem;
+    margin-left: 3.15rem;
+    position: absolute;
+    left:200px;
+    top: 551px;
+
+}

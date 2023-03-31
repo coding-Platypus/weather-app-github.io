@@ -1,0 +1,84 @@
+body{
+  padding-top: 10rem;
+  text-align: center;
+  background-color: #EEF1FF;
+}
+
+.cloud1{
+  height: 5rem;
+  width: 10rem;
+  position: absolute;
+  top: 100px;
+  padding-top: 0;
+  margin-top: 0px;
+  margin-left: 400px;
+}
+
+.cloud2{
+  height: 5rem;
+  width: 10rem;
+  padding:50px;
+  position: absolute;
+  left:200px;
+}
+
+
+
+
+h1{
+  font-family: "Vollkorn", serif;
+  color: #0D4C92;
+  font-size: 3rem;
+  margin-top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+}
+
+
+
+
+
+img{
+  height: 7rem;
+  width: 7rem;
+  margin-top: 3.5rem;
+  margin-bottom: 0;
+}
+
+.form-text{
+  width: 22rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 10rem;
+  border-color: #0D4C92;
+  border-width: thin;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+}
+.form-text: active{
+  border-color: #3F3B6C;
+}
+
+.button{
+  height: 2rem;
+  width: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 10rem;
+  background-color: #B9E0FF;
+  border-width: thin;
+  border-color: #B9E0FF;
+  text-align: center;
+  margin-left: 0.3rem;
+}
+ .button:hover{
+   background-color: #AAC4FF;
+ }
+ .button:active{
+   background-color: #EDEDED;
+   border-color: #0D4C92;
+   border-width: thin;
+ }

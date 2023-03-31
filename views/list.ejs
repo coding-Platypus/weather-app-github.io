@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;300;400;500;700&family=Noto+Serif&family=Ubuntu:wght@300;400;700&family=Vollkorn&display=swap" rel="stylesheet">
+  <title>Weather Hopping</title>
+</head>
+
+<body>
+  <img class="cloud3" src="images/cloud.png" alt="cloud-image">
+  <div class=output>
+    <h2>The temparature in <%= loc %> is <%= temparature %> deg Celcius.</h2>
+    <p>Feels Like <%= feelsLike %>.</p>
+    <p>The weather is <%= des %>.</p>
+    <img src="<%= image %>" alt="weather-image">
+
+  </div>
+  <img class="cloud4" src="images/cloud.png" alt="cloud-image">
+</body>
+
+</html>
